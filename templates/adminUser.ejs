@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Admin User</title>
+	<style>
+		body {
+			padding-top: 300px;
+            background-image: url('/image/map.png');
+            background-position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+		}
+
+		a {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+		
+		#container {
+			width:600px;
+			height:200px;
+			padding:10px;
+			margin: 0 auto;
+  			margin-left: auto;
+  			margin-right: auto;
+			text-align: center;
+			background:rgb(237, 137, 162);
+			border-radius: 20px;
+		}
+
+		#button {
+			padding: 5px;
+			font-size: 15px;
+			border-radius: 10px;
+			border-color: rgba(121, 209, 233, 0.685);
+			background-color: rgba(121, 208, 233, 0.685);
+		}
+		
+	</style>
+</head>
+
+<body>
+	<a href="/dashboard"><img src="/image/home.png" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+	
+	<form id="container" action="/adminUser" method="post">
+		<h1>Find all saved by user</h1>
+		<label>User Name: <input type="text" name="user"/></label>
+        <br><br>
+		<input id="button" type="submit" value="Submit Request"/>
+    
+	</form>
+
+
+</body>
+
+</html>

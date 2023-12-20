@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Home Page</title>
+	<style>
+		body {
+            background-image: url('/image/bg2.png');
+			background-position: -20% 35%;
+            background-size: 700px 700px;
+            background-repeat: no-repeat;
+		}
+
+		h1 {
+			position: absolute;
+  			right: 110px;
+  			top: 140px;
+		}
+		h2 {
+			position: absolute;
+  			right: 110px;
+  			top: 180px;
+		}
+
+
+		#box1 {
+			width:200px;
+			height:100px;
+			text-align: center;
+			position: absolute;
+			left: 20px;
+			bottom:120px;
+			border-radius: 20px;
+			
+		}
+
+		#box2 {
+			width:200px;
+			height:100px;
+			text-align: center;
+			position: absolute;
+			right:365px;
+			bottom:120px;
+			border-radius: 20px;
+			
+		}
+
+		#box3 {
+			width:200px;
+			height:100px;
+			text-align: center;
+			position: absolute;
+			right: 20px;
+			bottom:120px;
+			border-radius: 20px;
+			
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="bg2">
+		<h1>Home Page</h1>
+		<h2>Hi, <%- displayName %></h2>
+	</div>
+	<br>
+	
+		<div id="box1">
+			<p>Discover the City<br><a href="/search"><img src="/image/Search_Icon.png" alt="HTML tutorial" style="width:45px;height:45px;"></a></p>
+		</div>
+		<div id="box2"> 
+			<p>Saved by User<br><a href="/adminUser"><img src="/image/like.png" alt="HTML tutorial" style="width:45px;height:45px;"></a></p>
+		</div>
+		<div id="box3">
+			<p>Clean Saved Lists<br><a href="/cleanUp"><img src="/image/delete.png" alt="HTML tutorial" style="width:45px;height:45px;"></p>
+		</div>
+	
+		
+	
+	
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Search Result</title>
+	<style>
+		body {
+			font-family: 'lato', sans-serif;
+
+			padding-top: 100px;
+            background-image: url('/image/michael.jpg');
+            background-position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+			
+		}
+		.img {opacity: 0.5;}
+
+		.container {
+ 			max-width: 1000px;
+  			margin-left: auto;
+  			margin-right: auto;
+  			padding-left: 10px;
+  			padding-right: 10px;
+		}
+
+		table {
+			border: 0px;
+			border-spacing: 0;
+			
+		}
+
+		h1 {
+  			font-size: 26px;
+  			margin: 20px 0;
+  			
+		}
+
+		th {
+    		background-color: #95A5A6;
+    		font-size: 14px;
+    		text-transform: uppercase;
+    		
+			border: 0px;
+			border-spacing: 0;
+  		}
+  		tr {
+    		background-color: #ffffff;
+    		box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+			border: 0px;
+			border-spacing: 0;
+  		}
+		
+		#a1 {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+
+		#a2 {
+			position: absolute;
+			left: 10px;
+			top: 10px;
+		}
+
+		hr {
+			border: 1px solid
+		}
+
+		#textBox {
+			width:350px;
+			height: 25px;
+		}
+
+		#button {
+			height: 25px;
+			font-size: 15px;
+			border-radius: 6px ;
+			border-color: rgba(78, 107, 115, 0.588);
+			background-color: rgba(78, 107, 115, 0.588);
+		}
+
+
+	</style>
+</head>
+
+<body>
+	<a id="a1" href="/dashboard"><img src="/image/home.png" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+	<a id="a2" href="/search"><img src="/image/arrow.png" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+
+	<div id="container">
+		<h1>Choose the One You Wish to Save.</h1><br>
+		
+		<form id="formAction" action="/processInsert" method="post"
+		>
+			<label><input id="textBox" type="text" name="choose" placeholder="No. "/></label>
+			<input id="button" type="submit" value="Insert"/>
+			<input id="button" type="reset" value = "Reset"/>
+		</form>
+		<br><br>
+		<hr>
+		<br>
+		<%- data %>	
+	</div>
+</body>
+
+
+</html>

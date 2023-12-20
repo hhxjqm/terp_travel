@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Search Hotel</title>
+	<style>
+		body {
+            background-image: url('/image/claudia.jpg');
+			background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+		}
+
+		h1 {
+			position: absolute;
+			top:350px;
+			left:100px;
+		}
+
+		a {
+			position: absolute;
+			right: 10px;
+		}
+
+		#searchBox {
+			position: absolute;
+			top:450px;
+			right:200px;
+		}
+
+		#textBox {
+			width:500px;
+			height:18px;
+			border-radius: 6px;
+			margin: 0 auto;
+  			margin-left: auto;
+  			margin-right: auto;
+			text-align: center;
+		}
+
+		hr {
+			width: 750px;
+			position: absolute;
+			top:650px;
+			right:120px;
+		}
+
+		#buttons {
+			border-radius: 6px;
+			border-color: rgba(105, 180, 200, 0.588);
+			background-color: rgba(105, 180, 200, 0.588);
+		}
+		
+	</style>
+</head>
+
+<body>
+	<a href="/dashboard"><img src="/image/home.png" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+	<div>
+
+	</div>
+	<h1>Search</h1>
+
+	<div id="searchBox">
+		<form action="/search" method="post">
+			
+			<label><strong>Enter any place you plan to visit<br><br></strong><input id="textBox" type="text" name="name" placeholder="e.g. Hotel in New York"></label>
+			<input id="buttons" type="submit" value="Search"/>
+			<input id="buttons" type="reset" value = "Reset"/>
+			
+		</form>
+	</div>
+	<hr>
+	<br>
+	
+</body>
+
+</html>

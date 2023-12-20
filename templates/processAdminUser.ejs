@@ -1,0 +1,66 @@
+<head>
+	<meta charset="utf-8" />
+	<title>Admin GFA</title>
+	<style>
+		body {
+            background-image: url('/image/lastovich.jpg');
+			background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+		}
+		
+		a {
+			position: absolute;
+			right: 10px;
+		}
+
+		#container {
+ 			max-width: 1000px;
+  			margin-left: auto;
+  			margin-right: auto;
+  			padding-left: 10px;
+  			padding-right: 10px;
+		}
+
+		table {
+			border: 0px;
+			border-spacing: 0;
+			
+		}
+
+		h1 {
+  			font-size: 26px;
+  			margin: 20px 0;
+  			
+		}
+
+		th {
+    		background-color: #bcb5a0;
+    		font-size: 14px;
+    		text-transform: uppercase;
+    		
+			border: 0px;
+			border-spacing: 0;
+  		}
+  		tr {
+    		background-color: #ffffff;
+    		box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+			border: 0px;
+			border-spacing: 0;
+  		}
+
+	</style>
+</head>
+
+<body>
+	<a href="/dashboard"><img src="/image/home.png" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+	
+	
+		<h1>Display all saved place by user</h1>
+		<%- userTable %>
+		<br>
+	
+	
+</body>
+
+</html>

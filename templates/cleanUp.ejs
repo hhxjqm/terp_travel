@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Clean Up</title>
+	<style>
+		body {
+			padding-top: 450px;
+            background-image: url('/image/blue.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;   
+        }
+
+		a {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+
+		#container {
+			width:600px;
+			height:200px;
+			padding:10px;
+			margin: 0 auto;
+  			margin-left: auto;
+  			margin-right: auto;
+			text-align: center;
+			background:rgb(255, 255, 255);
+			border-radius: 20px;
+		}
+
+		#button {
+			
+			padding: 5px;
+			font-size: 15px;
+			border-radius: 6px;
+			border-color: rgba(78, 107, 115, 0.588);
+			background-color: rgba(78, 107, 115, 0.588);
+		}
+
+
+		#message {
+            display: none;
+            color: rgba(255, 4, 121, 0.766);
+            font-weight: bold;
+        }
+
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<h1>Removing All Saved Places</h1>
+		<form id="formAction" action="/cleanUp" method="post" onSubmit="if(!confirm('Are you sure you want to remove all saved?')){return false;}">
+			<input id="button" type="submit" value="Clear All Saved"/><br>
+			<hr>
+		</form>
+	</div>
+	<a href="/dashboard"><img src="/image/home.png" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+	
+</body>
+
+</html>
