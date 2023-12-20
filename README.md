@@ -4,6 +4,12 @@
 
 Users can search for desired information such as addresses or restaurants by entering keywords. They have the option to save or delete the search results from the database.
 
+## Technologies Used
+
+- Backend: Built using Node.js and Express.
+- Database: Application data is stored in MongoDB.
+- Authentication: Implemented Google Authenticator for enhanced security.
+
 ## API
 
 [Local Business Data](https://rapidapi.com/letscrape-6bRBa3QguO5/api/local-business-data)  --By OpenWeb Ninja
@@ -27,3 +33,4 @@ Users can search for desired information such as addresses or restaurants by ent
     MONGO_COLLECTION = 
     ```
 3. npm install
+4. Node server.js
