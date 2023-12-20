@@ -6,7 +6,7 @@ Users can search for desired information such as addresses or restaurants by ent
 
 ## API
 
-[Local Business Data](https://rapidapi.com/letscrape-6bRBa3QguO5/api/local-business-data) By OpenWeb Ninja
+[Local Business Data](https://rapidapi.com/letscrape-6bRBa3QguO5/api/local-business-data)  --By OpenWeb Ninja
 
 ## Web service (Render)
 
