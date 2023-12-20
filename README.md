@@ -18,7 +18,7 @@ Users can search for desired information such as addresses or restaurants by ent
 2. Create a `.env` file and add the following content:
 
     ```env
-    PORT = 5001
+    PORT = 
     CLIENT_ID = 
     CLIENT_SECRET = 
     MONGO_DB_USERNAME = 
