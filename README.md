@@ -6,9 +6,9 @@ Users can search for desired information such as addresses or restaurants by ent
 
 ## Technologies Used
 
-- Backend: Built using Node.js and Express.
-- Database: Application data is stored in MongoDB.
-- Authentication: Implemented Google Authenticator for enhanced security.
+- Backend: Node.js and Express
+- Database: MongoDB
+- Authentication: Implemented Google Authenticator
 
 ## API
 
